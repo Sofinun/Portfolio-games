@@ -4,8 +4,8 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 
 export default defineConfig({
-  site: 'https://sofinun.github.io',
-  base: '/Portfolio-games/',
+  site: 'https://sofinun.github.io/',
+  base: '/',
 
   markdown: {
     shikiConfig: {
