@@ -42,6 +42,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 						{item.title}
 					</h3>
 					{item.title_en && <p class="font-type">{item.title_en}</p>}
+					{item.description && <p class="project-description">{item.description}</p>}
 				</div>
 				<div class="project-icon">
 					<div class="icon">

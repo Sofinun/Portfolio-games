@@ -4,7 +4,7 @@ import DetailHeader from "../../components/DetailHeader.astro";
 import DetailPostLayout from "../../layouts/DetailPostLayout.astro";
 import CallToAction from "../../components/CallToAction.astro";
 
-//输入文件夹地址，会按文件名自动加载全部，并压缩为webp格式
+// Ingresa la ruta de la carpeta; cargará todos los archivos por nombre y los convertirá a webp.
 const images = Object.values(
 	import.meta.glob<{ default: ImageMetadata }>('../../assets/projects/todo/*.{jpg,png,webp}', {
 		eager: true,
@@ -13,9 +13,9 @@ const images = Object.values(
 
 ---
 <DetailPostLayout
-	title="在线 Todo List | 606 灵感设计 | Rico "
-	description = '极简设计 TodoList 网页版本应用,无需注册,数据存储在H5浏览器本地缓存,提供工作和生活辅助！！',
-	keywords = '在线Todo,网页todo,备忘录, ,无需注册登陆,即开即用,便签, 提醒, 日程, 记事本, 记事, 待办事件,online todolist, 606设计',
+	title="Todo List Online | 606 Diseño de inspiración | Rico"
+	description = 'Aplicación web TodoList de diseño minimalista, sin registro, datos almacenados en caché local H5 del navegador, con soporte para trabajo y vida.',
+	keywords = 'Todo en línea, todo list web, memo, sin registro, listo para usar, notas, recordatorio, agenda, cuaderno, notas, eventos pendientes, online todolist, 606 diseño',
 >
 	<div class="post">
 		<main class="post-wrapper">
@@ -33,14 +33,14 @@ const images = Object.values(
 						<div class="col-1a">
 							<h3 class="post-title">Todo 1.0 - Figma & Vue 2.x</h3>
 							<p class="post-desc">
-								一款优秀的设计简洁的 Todolist 网页版本应用，无需注册，数据存储在浏览器本地缓存。技术基于Vue2.x，提供工作和生活辅助！
+								Una aplicación web TodoList bien diseñada y minimalista, sin necesidad de registro, con datos guardados en el almacenamiento local del navegador. Basada en Vue 2.x, ofrece apoyo tanto para el trabajo como para la vida diaria.
 							</p>
 						</div>
 						<div class="col-1a">
 							<p>
 								<div class="btn">
 									<CallToAction href="https://todo.uiineed.com/" target="_blank">
-										访问站点
+										Visitar sitio
 									</CallToAction>
 									<CallToAction href="https://github.com/ricocc/uiineed-todo-list" target="_blank">
 										Github

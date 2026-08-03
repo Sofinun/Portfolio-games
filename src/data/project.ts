@@ -11,8 +11,9 @@ export interface ProjectItem {
 }
 export const projectItems: ProjectItem[] = [
 	{
-		title: "[示例] 3D 图标资产 - 情人节",
+		title: "Activos 3D para San Valentín",
     title_en: "Valentine's Day 3D Assets",
+    description: "Pack gratuito de iconos 3D y archivos Blender enfocado en diseño para San Valentín.",
 		date: "2023-10-15",
     detail: "/detail/free-3d-valentines-assets/",
     url: "https://web.606design.art/landings/004-free-3d-valentines-assets/",
@@ -20,8 +21,9 @@ export const projectItems: ProjectItem[] = [
 		tags: ['3D', 'WEB', 'ICON']
 	},
   {
-		title: "[示例] 待办清单网页版",
+		title: "Lista de tareas en línea",
     title_en: "Online Todo List",
+    description: "Aplicación web TodoList minimalista sin registro, con almacenamiento local en el navegador.",
 		date: "2023-10-15",
     detail: "/detail/todo",
     url: "https://www.ricocc.com/todo/",
@@ -29,8 +31,9 @@ export const projectItems: ProjectItem[] = [
 		tags: ['WEB', 'UI', 'TODO']
 	},
   {
-		title: "[示例] Tink 旅行生活日记",
-    title_en: "AI Landing Page",
+		title: "Diario de vida de viaje Tink",
+    title_en: "Tink Life Travel Diary",
+    description: "Landing page móvil con enfoque en diseño visual y experiencia de usuario.",
 		date: "2023-10-15",
 		url: "https://travellife.zeabur.app/",
 		detail: "/detail/tinklife",
